@@ -1,0 +1,19 @@
+# http request: url, method, body, header
+
+GET http://localhost:5000/blogs
+###
+POST http://localhost:5000/blogs
+Content-Type: application/json
+
+{
+    "title": "title 3"
+}
+###
+PUT http://localhost:5000/blogs/2
+Content-Type: application/json
+
+{
+    "title": "new awefwe"
+}
+###
+DELETE http://localhost:5000/blogs/1
